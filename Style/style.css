@@ -1,0 +1,92 @@
+/*
+ * CVStyle.css
+ * S Dowling x21189994@student.ncirl.ie
+ * 06 02 2023
+ */
+ 
+body{
+    background-color: lightcyan;
+    color:purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    text-align:center;
+    color: lightcyan;
+    background-color: purple;
+}
+#container1{
+    display: flex;
+    align-items:flex-start;
+    flex-direction:row;
+    justify-content: space-around;
+}
+#profile{
+    flex:1;
+    order:1;
+    padding:10px;
+}
+#education{
+    flex:1;
+    order:3;
+    padding:10px;
+}
+#experience{
+    flex:2;
+    order:2;
+    padding:10px;
+}
+#container2{
+    display:flex;
+    align-items:flex-end;
+    flex-direction:row-reverse;
+    justify-content: space-evenly;
+    padding:10px;
+}
+#skills{
+    order:3;
+    flex:1;
+}
+#reference{
+    flex:2;
+    order:3;
+}
+#footer{
+    background-color: lightcyan;
+    width:100%;
+    text-align:center;
+    order:2;
+    flex:3;
+}
+#my-address{
+    flex:1;
+    order:2;
+    padding:10px;
+    justify-content: space-between;
+    text-align:right;
+}
+#contact-address{
+    flex:1;
+    order:1;
+    padding:10px;
+    padding-top:60px;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+h2{ 
+    text-decoration-line:underline;  
+    color:blue;
+}
+@media all and (max-width: 600px) {
+    body{
+    background-color: black;
+    color: lightcyan;
+    }
+    #header{
+        background-color: lightcyan;
+        color: black;
+    }
+    #footer{
+        background-color: black;
+        width:100%;
+    }
+}
