@@ -1,9 +1,40 @@
 /*
- * CVStyle.css
+ * style.css
  * S Dowling x21189994@student.ncirl.ie
- * 06 02 2023
+ * 27 02 2023
  */
- 
+
+body{
+    background-color: black;
+    color:white;
+}
+.row{
+    margin-top:100px;
+    min-height:100px;
+    justify-content: space-between;
+}
+.show{
+    justify-content: space-between;
+}
+.center{
+    text-align:center;
+}
+@media all and (max-width: 200px) {
+    body{
+    background-color: black;
+    color: lightcyan;
+    }
+    #header{
+        background-color: lightcyan;
+        color: black;
+    }
+    #footer{
+        background-color: black;
+        width:100%;
+    }
+}
+
+/* 
 body{
     background-color: lightcyan;
     color:purple;
@@ -75,18 +106,4 @@ body{
 h2{ 
     text-decoration-line:underline;  
     color:blue;
-}
-@media all and (max-width: 600px) {
-    body{
-    background-color: black;
-    color: lightcyan;
-    }
-    #header{
-        background-color: lightcyan;
-        color: black;
-    }
-    #footer{
-        background-color: black;
-        width:100%;
-    }
-}
+} */
