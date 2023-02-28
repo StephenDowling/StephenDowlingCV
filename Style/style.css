@@ -19,6 +19,9 @@ body{
 .center{
     text-align: center;
 }
+.right{
+    text-align: right;
+}
 @media all and (max-width: 600px) {
     body{
     background-color: black;
