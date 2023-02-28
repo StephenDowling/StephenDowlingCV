@@ -17,7 +17,7 @@ body{
     justify-content: space-between;
 }
 .center{
-    text-align:center;
+    text-align: center;
 }
 @media all and (max-width: 600px) {
     body{
